@@ -1,0 +1,7 @@
+version: '2'
+services:
+  my-first-nodejs:
+    build: .
+    command: npm run start
+    volumes:
+      - .:/app

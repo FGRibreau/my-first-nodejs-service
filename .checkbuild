@@ -1,0 +1,4 @@
+{
+  "extends": [".checkbuildrc_base"],
+  "urls": ["https://raw.githubusercontent.com/iadvize/javascript-convention/master/.checkbuildrc_base"]
+}

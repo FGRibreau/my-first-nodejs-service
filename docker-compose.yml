@@ -1,0 +1,7 @@
+version: '2'
+services:
+  my-first-nodejs:
+    image: iadvize/my-first-nodejs:master
+    ports:
+      - "8080:8080"
+    env_file: .env

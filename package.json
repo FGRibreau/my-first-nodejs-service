@@ -1,0 +1,57 @@
+{
+  "name": "iadvize-my-first-nodejs-service",
+  "title": "my-first-nodejs-service",
+  "private": true,
+  "version": "3.0.0",
+  "description": "my first node js service",
+  "main": "server.js",
+  "scripts": {
+    "ci": "npm test",
+    "test": "nyc --report-dir=${CIRCLE_ARTIFACTS:-'./test/coverage'} --all --statements=86 --lines=86 --functions=100 --branches=61 --check-coverage --reporter=lcov --reporter=cobertura -- mocha -r bootstrap.test.js $(find src -name '*.test.js')",
+    "test-watch": "mocha -w -G -r bootstrap.test.js  $(find src -name '*.test.js')",
+    "check-build": "check-build",
+    "postinstall": "npm outdated",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iadvize/my-first-nodejs-service.git"
+  },
+  "author": {
+    "name": "Francois-Guillaume Ribreau",
+    "url": "http://fgribreau.com/",
+    "email": "npm@fgribreau.com"
+  },
+  "engines": {
+    "node": "5"
+  },
+  "license": {
+    "name": "iAdvize",
+    "url": "http://iadvize.com"
+  },
+  "bugs": {
+    "url": "https://github.com/iadvize/my-first-nodejs-service/issues"
+  },
+  "homepage": "https://github.com/iadvize/my-first-nodejs-service",
+  "dependencies": {
+    "async": "1.x.x",
+    "boom": "^3.0.0",
+    "common-env": "5.x.x",
+    "deepmerge": "0.2.x",
+    "hapi": "13.x.x",
+    "lodash": "4.x.x",
+    "node-uuid": "^1.4.7",
+    "redsmin-api-documentation-ui": "^3.0.1",
+    "swaggerize-hapi": "1.x.x",
+    "wascally": "0.x.x",
+    "when": "3.x.x",
+    "winston": "2.x.x",
+    "winston-logmatic": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "check-build": "*",
+    "mocha": "2.x.x",
+    "nyc": "^6.4.0"
+  }
+}

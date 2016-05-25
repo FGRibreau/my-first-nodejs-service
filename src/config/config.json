@@ -1,0 +1,25 @@
+{
+  "api": {
+    "port": 8080
+  },
+  "logger": {
+    "timestamp": true,
+    "level": "debug",
+    "transports": {
+      "console": {
+        "enabled": true,
+        "config": {
+          "colorize": true,
+          "timestamp": true
+        }
+      },
+      "logmatic": {
+        "enabled": false,
+        "config": {
+          "token": "logmatic-ftw-yeah-boyz-(and-girlz-of-course)",
+          "hostname": "localhost"
+        }
+      }
+    }
+  }
+}

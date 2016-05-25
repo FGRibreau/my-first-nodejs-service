@@ -1,0 +1,12 @@
+{
+    "extends": ".eslintrc_base",
+    "globals": {
+        "_": true,
+        "when": true,
+        "assert": true,
+        "async": true
+    },
+    "rules": {
+        "no-var": 0
+    }
+}
