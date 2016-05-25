@@ -1,4 +1,4 @@
-iAdvize NodeJS Service Boilerplate [![Circle CI](https://circleci.com/gh/iadvize/my-first-nodejs-service/tree/master.svg?style=svg)](https://circleci.com/gh/iadvize/my-first-nodejs-service/tree/master)
+NodeJS Service Boilerplate (iAdvize workshop)
 =============================================
 
 ## Watch the keynote
