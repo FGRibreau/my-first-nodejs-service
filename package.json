@@ -34,15 +34,15 @@
   },
   "homepage": "https://github.com/iadvize/my-first-nodejs-service",
   "dependencies": {
-    "async": "1.x.x",
-    "boom": "^3.0.0",
-    "common-env": "5.x.x",
+    "async": "2.0.1",
+    "boom": "^4.0.0",
+    "common-env": "6.0.0",
     "deepmerge": "0.2.x",
-    "hapi": "13.x.x",
+    "hapi": "15.0.3",
     "lodash": "4.x.x",
     "node-uuid": "^1.4.7",
     "redsmin-api-documentation-ui": "^3.0.1",
-    "swaggerize-hapi": "1.x.x",
+    "swaggerize-hapi": "2.0.0",
     "wascally": "0.x.x",
     "when": "3.x.x",
     "winston": "2.x.x",
@@ -51,7 +51,7 @@
   "devDependencies": {
     "chai": "3.x.x",
     "check-build": "*",
-    "mocha": "2.x.x",
-    "nyc": "^6.4.0"
+    "mocha": "3.0.2",
+    "nyc": "^8.1.0"
   }
 }
