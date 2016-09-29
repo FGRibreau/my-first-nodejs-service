@@ -37,7 +37,7 @@
     "async": "1.x.x",
     "boom": "^3.0.0",
     "common-env": "5.x.x",
-    "deepmerge": "0.2.x",
+    "deepmerge": "1.0.3",
     "hapi": "13.x.x",
     "lodash": "4.x.x",
     "node-uuid": "^1.4.7",
