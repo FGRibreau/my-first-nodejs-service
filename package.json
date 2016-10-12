@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/iadvize/my-first-nodejs-service",
   "dependencies": {
-    "async": "1.x.x",
+    "async": "2.1.0",
     "boom": "^3.0.0",
     "common-env": "5.x.x",
     "deepmerge": "0.2.x",
