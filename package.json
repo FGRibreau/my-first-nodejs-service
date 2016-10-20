@@ -38,7 +38,7 @@
     "boom": "^3.0.0",
     "common-env": "5.x.x",
     "deepmerge": "0.2.x",
-    "hapi": "13.x.x",
+    "hapi": "15.2.0",
     "lodash": "4.x.x",
     "node-uuid": "^1.4.7",
     "redsmin-api-documentation-ui": "^3.0.1",
