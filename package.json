@@ -45,7 +45,7 @@
     "swaggerize-hapi": "1.x.x",
     "wascally": "0.x.x",
     "when": "3.x.x",
-    "winston": "2.x.x",
+    "winston": "2.3.0",
     "winston-logmatic": "^0.2.0"
   },
   "devDependencies": {
