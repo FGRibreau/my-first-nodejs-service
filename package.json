@@ -39,7 +39,7 @@
     "common-env": "5.x.x",
     "deepmerge": "0.2.x",
     "hapi": "13.x.x",
-    "lodash": "4.x.x",
+    "lodash": "4.17.1",
     "node-uuid": "^1.4.7",
     "redsmin-api-documentation-ui": "^3.0.1",
     "swaggerize-hapi": "1.x.x",
