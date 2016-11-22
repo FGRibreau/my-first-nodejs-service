@@ -36,7 +36,7 @@
   "dependencies": {
     "async": "1.x.x",
     "boom": "^3.0.0",
-    "common-env": "5.x.x",
+    "common-env": "6.1.0",
     "deepmerge": "0.2.x",
     "hapi": "13.x.x",
     "lodash": "4.x.x",
